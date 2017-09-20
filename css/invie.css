@@ -1,3 +1,34 @@
-body {
-  background: peru;
+/*tipo de selector {
+  propiedad: valor;
+}*/
+
+* {
+  border: 1px solid black;
+  margin: 10px;
+}
+header {
+  background: blue;
+}
+section {
+  background: purple;
+}
+article h3 {
+  color: green;
+}
+/*selectores de clase*/
+.title-a {
+  background: yellow;
+}
+.title-b {
+  background: salmon;
+}
+/*selectores de id*/
+#header {
+  border: 3px solid black;
+}
+#portada {
+  border: 3px solid orange;
+}
+#guitarras {
+  border: 3px solid brown;
 }
