@@ -1,4 +1,7 @@
 
+.header {
+  position: relative;
+}
 body {
   font-family: 'Allerta', sans-serif;
   margin: 0;
@@ -36,7 +39,12 @@ body {
   display:  inline-block;
   margin-left: 30px;
 }
-.logotipo, .menu{
+.menu {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.logotipo{
   display: inline-block;
 }
 .contenedor {
@@ -44,7 +52,7 @@ body {
   margin: auto;
 }
 .guitarra {
-  overflow: hidden;
+
   border: 1px solid #1F313C;
   padding: 10px;
   margin: 10px;
@@ -54,9 +62,13 @@ body {
 }
 .derecha {
   float: right;
+  position: relative;
+  top: -127px;
 }
 .izquierda {
   float: left;
+  position: relative;
+  top: 80px;
 }
 .contenedor-guitarra-a {
   padding-left: 20px;
